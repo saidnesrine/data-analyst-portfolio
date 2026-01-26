@@ -20,3 +20,5 @@ Northwind Traders — Microsoft sample database
 
 ## Business Value
 This project provides actionable insights into business performance.
+
+Create sql-northwind-analysis README
