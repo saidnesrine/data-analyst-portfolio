@@ -10,14 +10,21 @@ products, and employee performance.
 - SQL (CTEs, Window Functions, Joins)
 
 ## Dataset
-Northwind Traders — Microsoft sample database
+Northwind Traders — Microsoft sample database (Kaggle version)
 
-## Key Topics
+## Key SQL Topics Covered
 - JOINs
 - Aggregations
+- GROUP BY
 - CTEs
 - Window Functions
+- Business KPIs
+
+## Project Structure
+sql/: SQL scripts  
+insights/: business conclusions  
+data/: schema  
 
 ## Business Value
-This project provides actionable insights into business performance.
-
+This analysis helps understand customer behavior, product demand,
+and overall business performance.
