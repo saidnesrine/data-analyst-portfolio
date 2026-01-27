@@ -14,7 +14,7 @@ GROUP BY p.ProductID, p.ProductName
 ORDER BY revenue DESC
 LIMIT 10;
 
---Insight:
+--Insight:A limited number of products drive most of the revenue, while others contribute marginally.
 
 
 -- 2. Top 10 Products by Units Sold
@@ -28,7 +28,6 @@ GROUP BY p.ProductName
 ORDER BY total_units_sold DESC
 LIMIT 10;
 
---Insight:
 
 
 -- 3. Revenue by Product Category
@@ -42,7 +41,7 @@ GROUP BY cat.CategoryName
 ORDER BY Revenue DESC;
 
 
---Insight:
+--Insight: Revenue varies significantly across product categories, highlighting uneven category performance.
 
 
 -- 4. Low Performing Products
@@ -55,5 +54,4 @@ GROUP BY  p.ProductName
 ORDER BY revenue ASC
 LIMIT 10
 
---Insight:
 
