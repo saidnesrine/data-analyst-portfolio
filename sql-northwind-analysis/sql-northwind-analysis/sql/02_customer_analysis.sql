@@ -14,7 +14,6 @@ ORDER BY revenue DESC
 LIMIT 10;
 
 --Insight: The top 10 customers contribute a disproportionately large portion of total revenue.
-Implement loyalty programs and dedicated account management for top customers to reduce churn risk.
   
 --2. Customer Revenue Distribution
 
@@ -27,7 +26,6 @@ GROUP BY c.CompanyName
 ORDER BY revenue DESC
 
  --Insight: A small group of customers generates a significant share of total revenue, indicating a strong revenue concentration.
-  Prioritize retention strategies and personalized offers for high-value customers to maximize long-term revenue.
 
 --3. Customer Revenue Distribution(%)
 
@@ -64,5 +62,5 @@ GROUP BY  c.customerID, c.companyName
 ORDER BY monetary DESC;
 
 --Insight: High-value customers combine high purchase frequency and high total spending.
-          These customers should be prioritized for loyalty programs and retention strategies.
+          --These customers should be prioritized for loyalty programs and retention strategies.
 
