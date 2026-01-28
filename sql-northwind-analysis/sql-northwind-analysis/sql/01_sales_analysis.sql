@@ -54,3 +54,5 @@ FROM customers c JOIN orders o ON c.CustomerID=o.CustomerID
 JOIN order_details od ON o.OrderID = od.OrderID
 GROUP BY country
 ORDER BY revenue DESC ;
+
+--Insight: Revenue distribution differs significantly across customer countries.
