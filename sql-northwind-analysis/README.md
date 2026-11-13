@@ -9,6 +9,12 @@ products, and employee performance.
 - MySQL
 - SQL (CTEs, Window Functions, Joins)
 
+## Key Objectives
+- Analyze revenue trends
+- Identify top customers
+- Evaluate product performance
+- Measure employee contribution
+
 ## Dataset
 Northwind Traders — Microsoft sample database (Kaggle version)
 
